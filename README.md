@@ -1,5 +1,6 @@
 # Postman-GeoJSON-Visualizer-with-Fuzzy-Search
 This is an entry for the "Visualize for the Prize" Hackathon conducted as part of the Postman Student Summit 2021. GeoJSON response is visualized as an interactive map built with a base map of choice and spatial data points grouped into layers. It supports fuzzy search on values of non-spatial attributes.
+<br><br>Watch the visualizer in action: https://youtu.be/YOi3eB-cMVc
 
 ## Inspiration
 The idea for this visualization came from my GSoC’20 stint with OSGeo where I contributed to pygeoapi - a python RESTful OGC API framework for handling spatial data. A lot of my time was spent on validating API responses using Postman. Spatial data is something that needs to be visualized in a map to make sense. So whenever I had a response that needed to be validated, I had to copy-paste the GeoJSON response from Postman to some other tool providing visualization. If I was aware of the visualization feature in Postman back then, it could have saved me a lot of time and effort. So when I read about the visualization feature and this hackathon from the postman newsletter, the first thing that came to my mind was creating a visualization for GeoJSON data.
